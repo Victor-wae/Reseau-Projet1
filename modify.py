@@ -3,11 +3,8 @@ from datetime import datetime
 
 def ajouter_heure_au_fichier(chemin_fichier):
     try:
-        # Ouvrir le fichier en mode ajout ('a' pour append)
         with open(chemin_fichier, 'a') as fichier:
-            # Récupérer l'heure actuelle
             heure_actuelle = datetime.now().strftime("%H:%M:%S")
-            # Ajouter l'heure à la fin du fichier
             fichier.write('\n' + heure_actuelle)
         print("L'heure a été ajoutée au fichier avec succès.")
     except FileNotFoundError:

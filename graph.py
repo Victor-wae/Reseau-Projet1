@@ -31,9 +31,9 @@ def analyze_pcapng_capture(pcapng_file):
 
         capture.close()
     except FileNotFoundError:
-        print(f"Error: File '{pcapng_file}' not found.")
+        print("No")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print("No")
 
     return domain_counts, ipv4_counts, ipv6_counts
 
@@ -62,9 +62,10 @@ def analyze_pcapng_capture2(pcapng_file):
 
         capture.close()
     except FileNotFoundError:
-        print(f"Error: File '{pcapng_file}' not found.")
+        print("No")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print("No")
+
 
     return domain_counts, ipv4_counts, ipv6_counts
 
@@ -87,7 +88,6 @@ def plot_domain_counts(domain_counts, ipv4_counts, ipv6_counts):
     plt.show()
     
 
-# Usage example
 pcapng_dir = 'captureCSV/'
 pcapng_files = [os.path.join(pcapng_dir, file) for file in os.listdir(pcapng_dir) if file.endswith('.pcapng')]
 

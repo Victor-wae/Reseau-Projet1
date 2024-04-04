@@ -1,3 +1,6 @@
 Ne pas oublier de faire :
 chmod +x test1.sh
+chmod +x test2.sh
 (autoriser exécution du fichier bash)
+Le fichier KdriveRep était synchroniser avec un fichier en ligne de Kdrive donc chaque modification apporté dans ce fichier se synchronise avec mon fichier en ligne
+(en local en tout cas)
