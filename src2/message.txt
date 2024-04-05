@@ -47536,3 +47536,5 @@ vous faut sélectionner les plus pertinentes et fournir un maximum d’analyses 
 de vos observations dans le rapport.
 4. Le réseau eduroam isole les utilisateurs, observez plutôt ce qui se passe dans un réseau domestique.
 3
+
+13:56:14
