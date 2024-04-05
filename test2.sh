@@ -1,3 +1,4 @@
+#Déplace seulement un fichier, le modifie et le supprime
 gcc -o moveFile moveFile.c
 ./moveFile src2 KdriveRep
 sleep 10
